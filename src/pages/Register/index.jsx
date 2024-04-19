@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Button, Input, Heading, Text } from "../../components";
+import { Link } from 'react-router-dom';
 
 export default function RegisterPage() {
   return (
@@ -58,7 +59,7 @@ export default function RegisterPage() {
               placeholder={`Type your password here`}
               className="mt-[15px] sm:pr-5"
             />
-            <a href="https://www.youtube.com/embed/bv8Fxk0sz7I" target="_blank">
+            <Link to="/pages/Login/index.jsx">
               <Button
                 size="xs"
                 variant="gradient"
@@ -68,7 +69,7 @@ export default function RegisterPage() {
               >
                 Register
               </Button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

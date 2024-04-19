@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Img, Text, Button, Heading } from "../../components";
+import { Link } from 'react-router-dom';
 
 export default function ProfilePagePage() {
   return (
@@ -107,15 +108,15 @@ export default function ProfilePagePage() {
               >
                 About
               </Heading>
-              <a href="https://www.youtube.com/embed/bv8Fxk0sz7I" target="_blank">
+              <Link to="/pages/Login/index.jsx">
                 <div className="ml-[26px] flex bg-black-900_7f sm:ml-0">
-                  <a href="Logout" target="_blank" rel="noreferrer" className="right-[115100px]">
+                  <Button className="right-[115100px]">
                     <Heading size="s" as="h4" className="!text-[33px] !font-normal normal-case !text-white-A700">
                       Logout
                     </Heading>
-                  </a>
+                  </Button>
                 </div>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

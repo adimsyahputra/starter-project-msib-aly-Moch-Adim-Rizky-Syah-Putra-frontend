@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Text, Button, Input, Heading } from "../../components";
+import { Link } from 'react-router-dom';
 
 export default function LoginPage() {
   return (
@@ -51,7 +52,7 @@ export default function LoginPage() {
               placeholder={`Type your  password here`}
               className="mt-[17px] sm:pr-5"
             />
-            <a href="https://www.youtube.com/embed/bv8Fxk0sz7I" target="_blank">
+            <Link to="/pages/profilepage/index.jsx">
               {/* login button section */}
               <Button
                 size="xs"
@@ -62,13 +63,13 @@ export default function LoginPage() {
               >
                 LOGIN
               </Button>
-            </a>
-            <a href="https://www.youtube.com/embed/bv8Fxk0sz7I" target="_blank">
+            </Link>
+            <Link to="/pages/registration/index.jsx">
               {/* registration prompt section */}
               <Text size="s" as="p" className="mt-[29px] !text-blue-A400">
-                Dont have account yet?
+                Don't have an account yet?
               </Text>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
