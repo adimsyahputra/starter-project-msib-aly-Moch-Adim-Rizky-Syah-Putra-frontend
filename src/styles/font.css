@@ -1,0 +1,35 @@
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/PlayRegular.ttf");
+  font-family: "Play";
+  font-weight: 400;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/PlayBold.ttf");
+  font-family: "Play";
+  font-weight: 700;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/NotoSansRegular.ttf");
+  font-family: "Noto Sans";
+  font-weight: 400;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/MuktaBold.ttf");
+  font-family: "Mukta";
+  font-weight: 700;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/MuktaRegular.ttf");
+  font-family: "Mukta";
+  font-weight: 400;
+}
