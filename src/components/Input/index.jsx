@@ -6,7 +6,7 @@ const shapes = {
 };
 const variants = {
   underline: {
-    light_blue_A700: "text-gray-400_7f border-b border-light_blue-A700 border-solid",
+    light_blue_A700: "text-black-400_7f border-b border-light_blue-A700 border-solid",
   },
 };
 const sizes = {
@@ -41,7 +41,7 @@ const Input = React.forwardRef(
     return (
       <>
         <div
-          className={`${className} flex items-center justify-center self-stretch text-gray-400_7f font-notosans text-lg border-b border-light_blue-A700 border-solid  ${(shape && shapes[shape]) || ""} ${variants[variant]?.[color] || variants[variant] || ""} ${sizes[size] || ""}`}
+          className={`${className} flex items-center justify-center self-stretch text-black-400_7f font-notosans text-lg border-b border-light_blue-A700 border-solid  ${(shape && shapes[shape]) || ""} ${variants[variant]?.[color] || variants[variant] || ""} ${sizes[size] || ""}`}
         >
           {!!label && label}
           {!!prefix && prefix}
